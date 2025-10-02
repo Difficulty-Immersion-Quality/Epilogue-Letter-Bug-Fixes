@@ -226,15 +226,15 @@ THEN
 DB_NOOP(1);
 //END_REGION
 
-//REGION Nightsong & Isobela
+//REGION Nightsong & Isobela (Isobela kekw)
 QRY
 QRY_EPI_Epilogue_LetterIsValid((ITEM)S_EPI_Letter_IsobelNightsong_5c47e3d7-1246-4f26-a9b5-d56670fb5afc)
 AND
 NOT DB_GlobalFlag(SHA_Nightsong_State_PermaDefeated_d02e8ea4-dec7-4824-8117-efc075dee4ba)
 AND
 NOT DB_GlobalFlag(LOW_SorcerousSundries_State_NightsongCaged_d9739530-c72a-4ad8-96f0-7ec71bbcfd98)
-AND
-DB_GlobalFlag(SCE_Isobel_State_WillJoinCamp_bd91b63d-9c38-1399-cb7d-9eeddff8b039)
+// AND
+// DB_GlobalFlag(SCE_Isobel_State_WillJoinCamp_bd91b63d-9c38-1399-cb7d-9eeddff8b039)
 AND
 NOT DB_PermaDefeated(S_GLO_Isobel_263bfbfc-6160-46f4-a9e1-1089cdb5c211)
 THEN
@@ -246,8 +246,8 @@ AND
 NOT DB_GlobalFlag(SHA_Nightsong_State_PermaDefeated_d02e8ea4-dec7-4824-8117-efc075dee4ba)
 AND
 NOT DB_GlobalFlag(LOW_SorcerousSundries_State_NightsongCaged_d9739530-c72a-4ad8-96f0-7ec71bbcfd98)
-AND
-DB_GlobalFlag(SCE_Isobel_State_WillJoinCamp_bd91b63d-9c38-1399-cb7d-9eeddff8b039)
+// AND
+// DB_GlobalFlag(SCE_Isobel_State_WillJoinCamp_bd91b63d-9c38-1399-cb7d-9eeddff8b039)
 AND
 DB_PermaDefeated(S_GLO_Isobel_263bfbfc-6160-46f4-a9e1-1089cdb5c211)
 THEN
@@ -610,8 +610,8 @@ QRY
 QRY_EPI_Epilogue_LetterIsValid((ITEM)S_EPI_Letter_Kagha_b1c618ef-0f86-428b-a2d8-bf38333a9bf9)
 AND
 DB_GlobalFlag(DEN_ShadowDruid_Event_KaghaTurnedGood_f2de839d-b971-86ee-f02c-5e09174ce919)
-AND
-NOT DB_GlobalFlag(DEN_GroveHostileState_04a03da4-b046-4332-9e1e-d6719626c210)
+// AND
+// NOT DB_GlobalFlag(DEN_GroveHostileState_04a03da4-b046-4332-9e1e-d6719626c210)
 AND
 NOT DB_PermaDefeated(S_DEN_DruidLeader_95eb2b0b-a522-4ea5-8167-c5f4d1418156)
 THEN
